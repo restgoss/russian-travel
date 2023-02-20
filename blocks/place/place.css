@@ -8,10 +8,6 @@
     margin-bottom: 80px;
 }
 
-.place:first-child .place__title {
-    letter-spacing: 1px;
-}
-
 @media screen and (max-width: 1279px) {
     .place {
         grid-column-gap: 32px;

@@ -1,10 +1,8 @@
 .place__paragraph {
     margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 163%;
 }
 
 .place__paragraph:first-child {
@@ -15,6 +13,10 @@
     .place__paragraph {
         font-size: 16px;
         max-width: 352px;
+    }
+
+    .place__paragraph:first-child {
+        margin-bottom: 25px;
     }
 }
 
